@@ -1,0 +1,128 @@
+/* Section title */
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  animation: fadeDown 1s ease;
+}
+
+/* Fade down animation */
+@keyframes fadeDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Nav Tabs Styling */
+.nav-tabs {
+  justify-content: center;
+  border-bottom: none; /* Removes underline */
+  margin-bottom: 30px;
+}
+
+.custom-nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444 !important;
+  padding: 10px 20px;
+  border-radius: 8px 8px 0 0;
+  transition: all 0.3s ease;
+  position: relative;
+  border: none !important;
+}
+
+/* Hover effect */
+.custom-nav-link:hover {
+  color: #007bff !important;
+  background: rgba(0, 123, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Active tab */
+.nav-tabs .nav-link.active {
+  color: #fff !important;
+  background: #007bff !important;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+  animation: popIn 0.4s ease;
+}
+
+/* Pop-in animation for active tab */
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0.5; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Table Styling */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  animation: fadeUp 0.8s ease;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #dee2e6;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.custom-table tr:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  transition: 0.3s ease;
+}
+
+/* Fade up animation for table rows */
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* ListGroup container animation */
+.list-group {
+  margin-top: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeUp 0.8s ease;
+  margin-bottom: 150px;
+}
+
+/* List items */
+.list-group-item {
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 20px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+/* Hover effect */
+.list-group-item:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  color: #007bff;
+  transform: scale(1.02);
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.2);
+  cursor: pointer;
+}
+
+/* Strong text inside list */
+.list-group-item strong {
+  color: #007bff;
+  font-weight: 600;
+  margin-right: 10px;
+}

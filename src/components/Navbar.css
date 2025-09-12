@@ -1,0 +1,54 @@
+/* Navbar background and shadow */
+.navbar-custom {
+  background: linear-gradient(90deg, #691295, #0f36b5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease;
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ffffff !important;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+  color: #ae00ff !important;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-left: 20px;
+  color: #f1f1f1 !important;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover underline effect */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #00ffcc;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00ffcc !important;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active link styling */
+.navbar-nav .nav-link.active {
+  color: #00ffcc !important;
+}

@@ -1,0 +1,55 @@
+/* Table wrapper animation */
+.mt-4 {
+  animation: fadeUp 0.8s ease;
+}
+
+/* Fade-up animation */
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom table styling */
+.table {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 1.05rem;   /* slightly bigger font */
+}
+
+/* Table header */
+.table thead th {
+  background-color: #9d00ff !important;
+  color: #fff !important;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 18px 20px;   /* bigger padding */
+  font-size: 1.1rem;
+  animation: fadeDown 0.8s ease;
+}
+
+/* Fade-down for header */
+@keyframes fadeDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Table body */
+.table tbody td {
+  padding: 16px 20px;   /* increased padding */
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.table tbody tr:hover {
+  background-color: #007bff !important;
+  color: #fff !important;
+  transform: scale(1.02);
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.2);
+}
