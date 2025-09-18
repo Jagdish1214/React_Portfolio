@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"; 
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"; 
 import "./Home.css";
 import heroImg from "./PhotoRoom-20250716_211156.png";
 import resume from "./JAGDISH_RESUME.pdf";
@@ -25,16 +25,16 @@ function Home() {
               {/* Social Links */}
               <div className="mt-1">
                 <a
-                  href="https://www.facebook.com/share/16mUZjtNTR/"
+                  href="https://github.com/Jagdish1214"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2"
                 >
-                  <FaFacebook className="text-primary" size={24} />
+                  <FaGithub className="text-primary" size={24} />
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/jagdish-shinde"
+                  href="www.linkedin.com/in/jagdish-shinde-63a82b36b"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2"

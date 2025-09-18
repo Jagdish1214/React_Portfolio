@@ -17,18 +17,18 @@ function Education()
                 <tbody>
                     <tr>
                         <td>B.sc Computer Science</td>
-                        <td>Sppu</td>
+                        <td>SPPU</td>
                         <td>2025</td>
                         <td>6.75</td>
                     </tr>
                     <tr>
-                        <td>12<sup>TH</sup></td>
+                        <td>HSC</td>
                         <td>Dnyanjoti High School</td>
                         <td>2022</td>
                         <td>79.17%</td>
                     </tr>
                     <tr>
-                        <td>10<sup>TH</sup></td>
+                        <td>SSC</td>
                         <td>Shree Samarth English Medium School</td>
                         <td>2020</td>
                         <td>79%</td>

@@ -94,3 +94,13 @@
 background:#9130ffff;
 color: #f9f9f9;
 }
+
+.hero .btn {
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.hero .btn:hover {
+  transform: scale(1.3);
+  color: #ffa930 !important;
+}

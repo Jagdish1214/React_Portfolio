@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
 import "./Footer.css";
 
 function Footer() {
@@ -10,15 +10,15 @@ function Footer() {
         {/* Social Links */}
         <div className="social-links mb-3">
           <a
-            href="https://www.facebook.com/share/16mUZjtNTR/"
+            href="https://github.com/Jagdish1214"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook size={24} className="text-primary" />
+            <FaGithub size={24} className="text-primary" />
           </a>
 
           <a
-            href="https://www.linkedin.com/in/jagdish-shinde"
+            href="www.linkedin.com/in/jagdish-shinde-63a82b36b"
             target="_blank"
             rel="noopener noreferrer"
           >
