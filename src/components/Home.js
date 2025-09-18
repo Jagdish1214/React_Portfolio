@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"; 
 import "./Home.css";
 import heroImg from "./PhotoRoom-20250716_211156.png";
-import resume from "./JAGDISH_RESUME.pdf";
+import resume from "./JAGDISH_RESUME1.pdf";
 import aimg from "./photo.png";
 
 function Home() {
